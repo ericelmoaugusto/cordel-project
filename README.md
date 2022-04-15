@@ -5,6 +5,6 @@ The subject of the page is a poem of the Brazilian author Milton Duarte. The mai
 - Text decoration
 - Use of Google Fonts: “Passion One” and “Sriracha”
 
-See page here: (insert link)
+See page here: https://ericelmoaugusto.github.io/cordel-project/
 
 This mini-project is part of the HTML5 & CSS3 course (part 3/5 <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dmcAviDwiGgHbeEJToxbOpZ">YouTube playlist</a>) taught by professor Gustavo Guanabra (<a href="https://github.com/gustavoguanabara">GitHub profile</a>).
