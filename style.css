@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/* imported from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'Passion One', cursive;
+    --font3: 'Sriracha', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--font1);
+}
+
+header {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+header > h1 {
+    font-family: var(--font2);
+    font-size: 10vw;
+    padding-top: 50px;
+    font-variant: small-caps; /* other option:"text-transform: uppercase;" */
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    font-family: var(--font3);
+    font-size: 3vw;
+    padding-left: 35vw;
+    padding-top: 10vh;
+    padding-bottom: 3vh;
+    line-height: 2em;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.normal > p.p-bpad {
+    padding-bottom: 2em;
+}
+
+section.image {
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.445);
+    background-size: cover; /* this will affect the images in section#img01 and section#img02 */
+    background-attachment: fixed;
+}
+
+section.image > p {
+    display: inline-block;
+    padding: 12px;
+    background-color: rgba(0, 0, 0, 0.285);
+    background-size: 30px 10px;
+    text-shadow: 1px 1px 0px black;
+}
+
+section#img01 {
+    background-image: url('imagens/background001.jpg');
+    background-position: center right;
+}
+
+section#img02 {
+    background-image: url('imagens/background002.jpg');
+    background-position: center center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
